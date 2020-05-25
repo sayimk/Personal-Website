@@ -96,7 +96,7 @@
 		<div class="container" id="one">
 			<div class="row">
 				<div class= "col">
-					<h4>Welcome to Sayim's Webpage</h4>				
+					<h3>Welcome to Sayim's Webpage</h3>				
 				</div>		
 			</div>
 			
@@ -108,11 +108,40 @@
 					projects or current side projects.
 					</p>
 				</div>
-				
+			</div>
+			
+			<div class="row" id="personalinfo">
+			
+				<div class= "col-sm" align="center">
+					<img src="Images/grad1.jpeg" class="img-fluid" id="gradImage" alt="Responsive image">
+				</div>
+			
+				<div class= "col-md" id="contactInfo">
+					<h6>Contact Info</h6>
+					<p id="mail">e-Mail: sayimkhan007@googlemail.com</p>
+					<p>Mobile: 07599358528 <br> &emsp; &emsp;&emsp; 07834834528</p>
+					<p>Github:<a href="https://github.com/sayimk"> https://github.com/sayimk</a></p>
+					<p>LinkedIn: <a href="https://www.linkedin.com/in/sayim-khan-8750b5131/">Sayim Khan</a></p>
+				</div>
+			</div>
+			
+			<div class="row">
+			<!-- Language skill ranking -->
+				<div class="col" id="preferences">
+					<h4>Language Preferences:</h4>
+			
+				</div>
 			</div>
 		</div>
 		
-		<!-- Footer -->
+		
+		
+				<!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <h4 class="text-muted">Powered By Amazon Web Services</h4>
+      </div>
+    </footer>
 		
 	</body>
 </html>
