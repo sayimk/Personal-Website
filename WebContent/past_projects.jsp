@@ -3,6 +3,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<meta charset="ISO-8859-1">
+
 		<!-- Bootstrap links -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -12,12 +14,12 @@
 		
 		<!-- General CSS Link -->
 		<link rel="stylesheet" href= "CSS/General_CSS.css">
-		
-		<title>Sayim's Home</title>
+	<title>My Past Projects</title>
 	</head>
 	
+	
 	<body>
-	<!-- Navigation Bar -->
+		<!-- Navigation Bar -->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
 		
 			    <span class="navbar-brand mb-0 h1">Sayim's Web</span>
@@ -32,13 +34,13 @@
   						<!-- Navbar Items  -->
   						
   						<!-- Home Link -->
-  						<li class="nav-item active">
-        					<a class="nav-link" href="/SayimWeb">Home <span class="sr-only">(current)</span></a>
+  						<li class="nav-item">
+        					<a class="nav-link" href="/SayimWeb">Home </a>
       					</li>
       					
       					<!-- Blank Link -->
-  						<li class="nav-item">
-        					<a class="nav-link" href="past_projects">Past Projects</a>
+  						<li class="nav-item active">
+        					<a class="nav-link" href="past_projects">Past Projects <span class="sr-only">(current)</span></a>
       					</li>
       					
       					<!-- Blank Link -->
@@ -90,67 +92,22 @@
   				</div>
 		</nav>
 		
-		
-		<!-- Page -->
-		<!-- Opening Paragraph -->
-		<div class="container" id="one">
+		<div class="container">
 			<div class="row">
-				<div class= "col">
-					<h3>Welcome to Sayim's Webpage</h3>				
-				</div>		
-			</div>
-			
-			<div class="row">
-				<div class="col-md" id="opening" align="center">
-					<p>Hello, this is my personal website that I built as a side project as I was
-					always interested in building my own site. The site was built using a Java foundation and is hosted by AWS.
-					This site will serve as an online version of my CV and a kind of portfolio for my past work, whether it was past university 
-					projects or current side projects.
-					</p>
+				<div class="col">
+					<h2>placeholder</h2>
 				</div>
 			</div>
-			
-			<div class="row" id="personalinfo">
-			
-				<div class= "col-sm" align="center">
-					<img src="Images/grad1.jpeg" class="img-fluid" id="gradImage" alt="Responsive image">
-				</div>
-			
-				<div class= "col-md" id="contactInfo">
-					<h6>Contact Info</h6>
-					<p id="mail">e-Mail: sayimkhan007@googlemail.com</p>
-					<p>Mobile: 07599358528 <br> &emsp; &emsp;&emsp; 07834834528</p>
-					<p>Github:<a href="https://github.com/sayimk"> https://github.com/sayimk</a></p>
-					<p>LinkedIn: <a href="https://www.linkedin.com/in/sayim-khan-8750b5131/">Sayim Khan</a></p>
-				</div>
-			</div>
-			
-			<div class="row">
-			<!-- Language skill ranking -->
-				<div class="col-md" id="preferences" >
-					<h5>Language Preferences:</h5>
-					<p>These are the languages that I prefer to use or have knowledge to efficiently program in</p>
-					<p><strong>1: Java - 4/5 years - </strong>This is the language that I am most comfortable with as this is the language I have the most skill with, it is also the first language 
-					that I started to learn at the beginning of my 4 year Computer Science course.</p>
-					<p><strong>2: C# - 2/3 years - </strong>This is my second strongest language as I used my Java knowledge and self-taught it during my BSc and MComp personal projects, there are
-					still a few concepts of the language that I need to touch on still such as Lambda expressions, but I am pretty proficient in the language. </p>
-					<p><strong>3: C++ - 1/2 years - </strong>I can for the most part program in this language with a little time, due to not using it as often as #1 and #2, but not a fan because I just prefer garbage collected languages as I can 
-					leave the collector to handle the memory allocations and etc, though a plus for the language is that it can use multiple inheritance and that is pretty useful.</p>
-					<p><strong>4: Web Development - 1/2 years -</strong> To Be Added (talk about generalized and the tech I know in the topic) 
-			
-				</div>
-			</div>
-	
 		</div>
 		
 		
 		
-				<!-- Footer -->
+				
+	<!-- Footer -->
     <footer class="footer">
       <div class="container">
         <h5 class="text-muted" align="right">Powered By Amazon Web Services</h5>
       </div>
     </footer>
-		
 	</body>
 </html>
