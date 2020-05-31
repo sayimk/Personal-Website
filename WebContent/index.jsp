@@ -136,7 +136,10 @@
 					still a few concepts of the language that I need to touch on still such as Lambda expressions, but I am pretty proficient in the language. </p>
 					<p><strong>3: C++ - 1/2 years - </strong>I can for the most part program in this language with a little time, due to not using it as often as #1 and #2, but not a fan because I just prefer garbage collected languages as I can 
 					leave the collector to handle the memory allocations and etc, though a plus for the language is that it can use multiple inheritance and that is pretty useful.</p>
-					<p><strong>4: Web Development - 1/2 years -</strong> To Be Added (talk about generalized and the tech I know in the topic) 
+					<p><strong>4: Web Development - 1/2 years -</strong> I have a moderate amount of knowledge in this area, during my university days I have used java's web dev side of things, spring MVC, bootstrap
+					as well as some NoSql for the database side of things. I've also used Javascript, HTML and some JQuery as well. I have enough knowledge to built this very basic website using Java, HTML, CSS and some Javascript. As I continue to slowly
+					improve the website with other technologies that I might have picked up along the way.
+					<br/>
 			
 				</div>
 			</div>
@@ -145,10 +148,12 @@
 		
 		
 		
-				<!-- Footer -->
+				<!-- Footer NEEDS MORE WORK-->
     <footer class="footer">
       <div class="container">
         <h5 class="text-muted" align="right">Powered By Amazon Web Services</h5>
+        
+        
       </div>
     </footer>
 		
