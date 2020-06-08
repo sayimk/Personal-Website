@@ -1,2 +1,3 @@
 # Personal-Website
-this is the repo for my persona java based website
+This is the repo for my personal site
+  sayimkhan.co.uk
