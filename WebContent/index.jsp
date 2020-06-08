@@ -102,13 +102,14 @@
 			
 			<div class="row">
 				<div class="col-md" id="opening" align="center">
-					<p>Hello, this is my personal website that I built as a side project as I was
-					always interested in building my own site. The site was built using a Java foundation and is hosted by AWS.
-					This site will serve as an online version of my CV and a kind of portfolio for my past work, whether it was past university 
-					projects or current side projects.
-					</p>
+					<h5>Hello and welcome to my own little bit of the internet, I'm a MComp Computer Science Graduate (2019) from Leicester who loves technology, video games
+					 and learning new cool things that come with the territory such as building a cool yet simple website!</h5>
+					
 				</div>
 			</div>
+			
+			<br/>
+			<hr id="past_proj_split">
 			
 			<div class="row" id="personalinfo">
 			
@@ -124,6 +125,9 @@
 					<p>LinkedIn: <a href="https://www.linkedin.com/in/sayim-khan-8750b5131/">Sayim Khan</a></p>
 				</div>
 			</div>
+			
+			<br/>
+			<hr id="past_proj_split">
 			
 			<div class="row">
 			<!-- Language skill ranking -->

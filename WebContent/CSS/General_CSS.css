@@ -24,6 +24,18 @@ footer {
 	
 }
 
+#personalinfo{
+	padding-top: 50px;
+	
+}
+
+
+
+#past_proj_split{
+	width:80%;
+	border-color:#40f2ff;
+}
+
 #contactInfo{
 	padding-top: 90px;
 	
@@ -46,4 +58,47 @@ footer {
 		padding-right: 80px;
 		
 }
+
+#proj_1_images{
+		padding-top: 20px;
+		max-width: 90%;
+		height: auto;
+		margin: auto;
+}
+
+#proj_1_title{
+		padding-top: 60px;
+		padding-left:80px;
+}
+
+#proj_1_details{
+		padding-left:90px;
+		padding-right:90px;
+		padding-top: 20px;
+}
+
+#proj_1_info_panel{
+		padding-left:70px;
+		padding-top: 60px;
+	
+}
+
+#proj_2_caro{
+		padding-top: 10px;
+}
+
+#proj_2_title{
+		padding-top: 60px;
+		padding-left:80px;
+}
+
+#proj_2_images{
+		padding-top: 10px;
+		max-width: 90%;
+		height: auto;
+		margin: auto;
+}
+
+
+
 
