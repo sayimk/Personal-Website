@@ -14,6 +14,12 @@
 		
 		<!-- General CSS Link -->
 		<link rel="stylesheet" href= "CSS/General_CSS.css">
+		
+		<!-- Meta tags -->
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<meta name="robots" content="index, follow"/>
+		<meta name="description" content="A software projects portfolio of Sayim Khan's past work, contains information such as name, type, languages and technologies used"/>
+		
 	<title>My Past Projects</title>
 	</head>
 	
@@ -45,13 +51,13 @@
       					
       					<!-- Blank Link -->
   						<li class="nav-item">
-        					<a class="nav-link disabled" href="#">Current Projects</a>
+        					<a class="nav-link" href="current_projects">Current Projects</a>
       					</li>
       					
-      					<!-- Blank Link -->
+      					<!-- Blank Link 
   						<li class="nav-item">
         					<a class="nav-link disabled" href="#">Blank 3</a>
-      					</li>
+      					</li>-->
       					
       					<!-- Blank Link -->
   						<li class="nav-item">
@@ -65,13 +71,11 @@
         					</a>
         					
         					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          						<a class="dropdown-item" href="#">About Me</a>
+          						<a class="dropdown-item" href="past_work">Past Work Experience</a>
           						<div class="dropdown-divider"></div>
-          						<a class="dropdown-item" href="#">Past Work Experience</a>
+          						<a class="dropdown-item" href="skills">Skills</a>
           						<div class="dropdown-divider"></div>
-          						<a class="dropdown-item" href="#">Skills</a>
-          						<div class="dropdown-divider"></div>
-          						<a class="dropdown-item" href="#">Hobbies</a>
+          						<a class="dropdown-item" href="hobbies">Hobbies</a>
         					</div>
       					</li>
       					
@@ -323,6 +327,7 @@
     <footer class="footer">
       <div class="container">
         <h5 class="text-muted" align="right">Powered By Amazon Web Services</h5>
+        <a href="GetSiteMap">Sitemap</a>
       </div>
     </footer>
 	</body>

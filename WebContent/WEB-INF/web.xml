@@ -24,6 +24,62 @@
 </servlet-mapping>
 
 
+ <!-- Current Project URL Mapping -->
+ <servlet>
+  <servlet-name>current_projects</servlet-name>
+  <jsp-file>/current_projects.jsp</jsp-file>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>current_projects</servlet-name>
+  <url-pattern>/current_projects</url-pattern>
+</servlet-mapping>
+
+<!-- CV Landing page -->
+ <servlet>
+  <servlet-name>cv_landing</servlet-name>
+  <jsp-file>/cv_landing.jsp</jsp-file>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>cv_landing</servlet-name>
+  <url-pattern>/cv_details</url-pattern>
+</servlet-mapping>
+
+ <!-- Past Work Experience URL Mapping -->
+ <servlet>
+  <servlet-name>past_work_experience</servlet-name>
+  <jsp-file>/work_experience.jsp</jsp-file>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>past_work_experience</servlet-name>
+  <url-pattern>/past_work</url-pattern>
+</servlet-mapping>
+
+
+ <!-- hobbies URL Mapping -->
+ <servlet>
+  <servlet-name>hobbies</servlet-name>
+  <jsp-file>/hobbies.jsp</jsp-file>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>hobbies</servlet-name>
+  <url-pattern>/hobbies</url-pattern>
+</servlet-mapping>
+
+
+ <!-- Skills URL Mapping -->
+ <servlet>
+  <servlet-name>skills</servlet-name>
+  <jsp-file>/skills.jsp</jsp-file>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>skills</servlet-name>
+  <url-pattern>/skills</url-pattern>
+</servlet-mapping>
 
   <filter>
     <filter-name>UrlRewriteFilter</filter-name>

@@ -8,10 +8,15 @@
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		
 		<!-- General CSS Link -->
 		<link rel="stylesheet" href= "CSS/General_CSS.css">
+		
+		<!-- Meta tags -->
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<meta name="robots" content="index, follow"/>
+		<meta name="description" content="Sayim Khan's personal website homepage, contains all of his software developer information, projects, CV and contact information such as LinkedIn, GitHub, etc"/>
+
 		
 		<title>Sayim's Home</title>
 	</head>
@@ -43,33 +48,31 @@
       					
       					<!-- Blank Link -->
   						<li class="nav-item">
-        					<a class="nav-link disabled" href="#">Current Projects</a>
+        					<a class="nav-link" href="current_projects">Current Projects</a>
       					</li>
       					
-      					<!-- Blank Link -->
+      					<!-- Blank Link 
   						<li class="nav-item">
         					<a class="nav-link disabled" href="#">Blank 3</a>
-      					</li>
+      					</li>-->
       					
-      					<!-- Blank Link -->
+      					<!-- Blank Link 
   						<li class="nav-item">
-        					<a class="nav-link disabled" href="#">Blank 4</a>
-      					</li>
+        					<a class="nav-link " href="cv_details">CV Info</a>
+      					</li>-->
       					
-      					<!-- My CV Area -->
+      					<!-- My CV Area  (remove and use a landing page above)-->
       					 <li class="nav-item dropdown">
-        					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link dropdown-toggle disable" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           					My CV
         					</a>
         					
         					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          						<a class="dropdown-item" href="#">About Me</a>
+          						<a class="dropdown-item" href="past_work">Past Work Experience</a>
           						<div class="dropdown-divider"></div>
-          						<a class="dropdown-item" href="#">Past Work Experience</a>
+          						<a class="dropdown-item" href="skills">Skills</a>
           						<div class="dropdown-divider"></div>
-          						<a class="dropdown-item" href="#">Skills</a>
-          						<div class="dropdown-divider"></div>
-          						<a class="dropdown-item" href="#">Hobbies</a>
+          						<a class="dropdown-item" href="hobbies">Hobbies</a>
         					</div>
       					</li>
       					
@@ -156,6 +159,7 @@
     <footer class="footer">
       <div class="container">
         <h5 class="text-muted" align="right">Powered By Amazon Web Services</h5>
+        <a href="GetSiteMap">Sitemap</a>
         
         
       </div>
