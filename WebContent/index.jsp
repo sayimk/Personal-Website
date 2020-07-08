@@ -14,7 +14,7 @@
 		
 		<!-- Meta tags -->
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<meta name="robots" content="index, follow"/>
+		<meta name="googlebot" content="index, follow"/>
 		<meta name="description" content="Sayim Khan's personal website homepage, contains all of his software developer information, projects, CV and contact information such as LinkedIn, GitHub, etc"/>
 
 		

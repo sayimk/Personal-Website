@@ -264,19 +264,90 @@
     						<li data-target="#proj_2_examples" data-slide-to="0" class="active"></li>
     						<li data-target="#proj_2_examples" data-slide-to="1"></li>
     						<li data-target="#proj_2_examples" data-slide-to="2"></li>
+    						<li data-target="#proj_2_examples" data-slide-to="3"></li>
+    						<li data-target="#proj_2_examples" data-slide-to="4"></li>
+    						<li data-target="#proj_2_examples" data-slide-to="5"></li>
+    						<li data-target="#proj_2_examples" data-slide-to="6"></li>
+    						<li data-target="#proj_2_examples" data-slide-to="7"></li>
+    						<li data-target="#proj_2_examples" data-slide-to="8"></li>
+    						<li data-target="#proj_2_examples" data-slide-to="9"></li>
+    						<li data-target="#proj_2_examples" data-slide-to="10"></li>
+    						<li data-target="#proj_2_examples" data-slide-to="11"></li>
+    						<li data-target="#proj_2_examples" data-slide-to="12"></li>
+    						<li data-target="#proj_2_examples" data-slide-to="13"></li>
+    						<li data-target="#proj_2_examples" data-slide-to="14"></li>
+    						<li data-target="#proj_2_examples" data-slide-to="15"></li>
+    						<li data-target="#proj_2_examples" data-slide-to="16"></li>
+
   						</ol>
   						
   					<div class="carousel-inner" id="proj_2_images" align="center">
     					<div class="carousel-item active">
-      						<img class="d-block w-100" src="Images/Project_2/p2_1.PNG" alt="First slide">
+      						<img class="d-block w-100" src="Images/Project_2/p2_10.png" alt="First slide">
     					</div>
     				
     					<div class="carousel-item">
-      						<img class="d-block w-100" src="Images/Project_2/p2_2.PNG" alt="Second slide">
+      						<img class="d-block w-100" src="Images/Project_2/p2_11.png" alt="Second slide">
     					</div>
     				
     					<div class="carousel-item">
-      						<img class="d-block w-100" src="Images/Project_2/p2_3.PNG" alt="Third slide">
+      						<img class="d-block w-100" src="Images/Project_2/p2_7.png" alt="Third slide">
+    					</div>
+    					
+    					  <div class="carousel-item">
+      						<img class="d-block w-100" src="Images/Project_2/p2_12.png" alt="fourth slide">
+    					</div>
+    					
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/Project_2/p2_8.png" alt="5th slide">
+    					</div>
+    					
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/Project_2/p2_1.PNG" alt="6th slide">
+    					</div>
+    					
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/Project_2/p2_2.PNG" alt="7th slide">
+    					</div>
+    					
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/Project_2/p2_13.png" alt="8th slide">
+    					</div>
+    					
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/Project_2/p2_14.png" alt="9th slide">
+    					</div>
+    					
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/Project_2/p2_15.png" alt="10th slide">
+    					</div>
+    					
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/Project_2/p2_16.png" alt="11th slide">
+    					</div>
+    					
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/Project_2/p2_17.png" alt="12th slide">
+    					</div>
+    					
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/Project_2/p2_18.png" alt="13th slide">
+    					</div>
+    					
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/Project_2/p2_19.png" alt="14th slide">
+    					</div>
+    					
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/Project_2/p2_20.png" alt="15th slide">
+    					</div>
+    					
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/Project_2/p2_21.png" alt="16th slide">
+    					</div>
+    					
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/Project_2/p2_22.png" alt="17th slide">
     					</div>
   					</div>
   					

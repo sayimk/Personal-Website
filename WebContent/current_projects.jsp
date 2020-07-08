@@ -110,7 +110,7 @@
 				</div>
 			</div>
 			
-						<br/>
+			<br/>
 			<hr id="past_proj_split">
 			
 			<div class="row">

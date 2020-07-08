@@ -96,8 +96,22 @@
   				</div>
 		</nav>
 		
+		<br/><br/>
+		<div class="container" id="CardsBG">
+			<h1>Past Work Experience</h1>
+		</div>
 		
+		<br/><br/>
 		
+		<div class="container" id="CardsBG">
+			<h1>Skills</h1>
+		</div>
+		
+		<br/><br/>
+		
+		<div class="container" id="CardsBG">
+			<h1>Hobbies</h1>
+		</div>
 		
 	</body>
 </html>

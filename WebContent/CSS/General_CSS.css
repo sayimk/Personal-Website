@@ -126,8 +126,17 @@ footer {
 	padding-left:20px;
 }
 
+#p_subtitle_indent_right{
+	padding-right:20px;
+}
+
 #para_Indent{
 	padding-left:30px;
+}
+
+#CardsBG{
+
+	background-color:#ffffff;
 }
 
 
