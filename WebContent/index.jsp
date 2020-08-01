@@ -9,6 +9,9 @@
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 		
+		<!-- javascript -->
+		<script type="module" src="Scripts/JS/animated_Background.js"></script>
+		
 		<!-- General CSS Link -->
 		<link rel="stylesheet" href= "CSS/General_CSS.css">
 		
@@ -95,8 +98,11 @@
 		
 		
 		<!-- Page -->
+		<canvas id="background"></canvas>
+		
 		<!-- Opening Paragraph -->
 		<div class="container" id="one">
+				
 			<div class="row">
 				<div class= "col">
 					<h3>Welcome to Sayim's Webpage</h3>				
@@ -104,7 +110,7 @@
 			</div>
 			
 			<div class="row">
-				<div class="col-md" id="opening" align="center">
+				<div class="col-md" align="center">
 					<h5>Hello and welcome to my own little bit of the internet, I'm a MComp Computer Science Graduate (2019) from Leicester who loves technology, video games
 					 and learning new cool things that come with the territory such as building a cool yet simple website!</h5>
 					

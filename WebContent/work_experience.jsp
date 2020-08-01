@@ -11,6 +11,9 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		
+		<!-- javascript -->
+		<script type="module" src="Scripts/JS/animated_Background.js"></script>
+		
 		<!-- General CSS Link -->
 		<link rel="stylesheet" href= "CSS/General_CSS.css">
 		
@@ -92,6 +95,7 @@
   				</div>
 		</nav>
 		
+		<canvas id="background"></canvas>
 		
 		<div class="container" id="one">
 			<div class="row">
