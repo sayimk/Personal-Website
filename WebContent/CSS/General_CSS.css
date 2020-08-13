@@ -153,22 +153,22 @@ canvas {
 }
 
 #cardPastTitle{
-	position: absolute;
-	top:170px;
-	left: 250px;
+	position: relative;
+	top:65px;
+	left: 70px;
 
 }
 
 #cardSkillTitle{
-	position: absolute;
-	top:420px;
-	left: 250px;
+	position: relative;
+	top:70px;
+	left: 70px;
 }
 
 #cardHobbiesTitle{
-	position: absolute;
-	top:670px;
-	left: 250px;
+	position: relative;
+	top:75px;
+	left: 70px;
 }
 
 #CardsPastCan{
@@ -186,24 +186,24 @@ canvas {
 }
 
 #cardPastSubText{
-	position: absolute;
-	top:215px;
-	left: 280px;
+	position: relative;
+	top:55px;
+	left: 110px;
 	color: #757471;
 }
 
 #cardSkillSubText{
-	position: absolute;
-	top:465px;
-	left: 280px;
+	position: relative;
+	top:60px;
+	left: 110px;
 	color: #757471;
 
 }
 
 #cardHobbiesSubText{
-	position: absolute;
-	top:715px;
-	left: 280px;
+	position: relative;
+	top:65px;
+	left: 110px;
 	color: #757471;
 }
 
