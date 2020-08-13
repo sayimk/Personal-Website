@@ -12,6 +12,9 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		
+		<!-- javascript -->
+		<script type="module" src="Scripts/JS/animated_Background.js"></script>
+		
 		<!-- General CSS Link -->
 		<link rel="stylesheet" href= "CSS/General_CSS.css">
 		
@@ -54,31 +57,15 @@
         					<a class="nav-link" href="current_projects">Current Projects </a>
       					</li>
       					
-      					<!-- Blank Link -->
+      					<!-- Blank Link 
   						<li class="nav-item">
         					<a class="nav-link disabled" href="#">Blank 3</a>
-      					</li>
+      					</li>-->
       					
-      					<!-- Blank Link -->
-  						<li class="nav-item">
-        					<a class="nav-link disabled" href="#">Blank 4</a>
+       					<!-- CV Landing Page -->
+  						<li class="nav-item active">
+        					<a class="nav-link " href="cv_details">CV Info <span class="sr-only">(current)</span></a>
       					</li>
-      					
-      					<!-- My CV Area -->
-      					 <li class="nav-item dropdown">
-        					<a class="nav-link active dropdown-toggle" href="cv_details" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          					My CV
-        					</a>
-        					
-        					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          						<a class="dropdown-item" href="past_work">Past Work Experience</a>
-          						<div class="dropdown-divider"></div>
-          						<a class="dropdown-item" href="skills">Skills</a>
-          						<div class="dropdown-divider"></div>
-          						<a class="dropdown-item" href="hobbies">Hobbies</a>
-        					</div>
-      					</li>
-      					
       					<!-- Add other NavBar heading links here -->
       					
       
@@ -96,22 +83,41 @@
   				</div>
 		</nav>
 		
+		<canvas id="background"></canvas>
+		
 		<br/><br/>
 		<div class="container" id="CardsBG">
-			<h1>Past Work Experience</h1>
+			<canvas id="CardsPastCan"></canvas>
+			<h1 id="cardPastTitle"><a href="past_work">Past Work Experience</a></h1>
+			<p id="cardPastSubText">A quick breakdown of all my past jobs and experiences</p>
 		</div>
 		
 		<br/><br/>
 		
 		<div class="container" id="CardsBG">
-			<h1>Skills</h1>
+			<canvas id="CardsSkillCan"></canvas>
+			<h1 id="cardSkillTitle"><a href="skills">Skills</a></h1>
+			<p id="cardSkillSubText">Summary and other information on all my software Skills</p>
+			
 		</div>
 		
 		<br/><br/>
 		
 		<div class="container" id="CardsBG">
-			<h1>Hobbies</h1>
+			<canvas id="CardsHobbiesCan"></canvas>
+			<h1 id="cardHobbiesTitle"><a href="hobbies">Hobbies</a></h1>
+			<p id="cardHobbiesSubText">Brief information on my hobbies, insight into what kind of person I am</p>
+			
 		</div>
 		
+		<br/><br/>
+		
+		<!-- Footer -->
+    	<footer class="footer">
+      		<div class="container">
+       	 		<h5 class="text-muted" align="right">Powered By Amazon Web Services</h5>
+        		<a href="GetSiteMap">Sitemap</a>
+      		</div>
+    	</footer>
 	</body>
 </html>

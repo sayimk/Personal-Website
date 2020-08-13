@@ -61,26 +61,10 @@
         					<a class="nav-link disabled" href="#">Blank 3</a>
       					</li>-->
       					
-      					<!-- Blank Link -->
+      					<!-- CV Landing Page -->
   						<li class="nav-item">
-        					<a class="nav-link disabled" href="#">Blank 4</a>
+        					<a class="nav-link " href="cv_details">CV Info</a>
       					</li>
-      					
-      					<!-- My CV Area -->
-      					 <li class="nav-item dropdown">
-        					<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          					My CV
-        					</a>
-        					
-        					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          						<a class="dropdown-item" href="past_work">Past Work Experience</a>
-          						<div class="dropdown-divider"></div>
-          						<a class="dropdown-item" href="skills">Skills</a>
-          						<div class="dropdown-divider"></div>
-          						<a class="dropdown-item" href="hobbies">Hobbies</a>
-        					</div>
-      					</li>
-      					
       					<!-- Add other NavBar heading links here -->
       					
       
