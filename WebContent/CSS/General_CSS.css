@@ -20,6 +20,7 @@ footer {
 }
 
 
+
 #one.container {
 	padding-top: 50px;
 	background-color:#ffffff;	
@@ -207,6 +208,29 @@ canvas {
 	color: #757471;
 }
 
+#cardPastIcon{
+	position: relative;
+	left: 80%;
+	top: -65px;
+	height: 70%;
+	max-width: auto;
+}
+
+#cardSkillIcon{
+	position: relative;
+	left: 80%;
+	top: -65px;
+	height: 70%;
+	max-width: auto;
+}
+
+#cardHobbiesIcon{
+	position: relative;
+	left: 80%;
+	top: -65px;
+	height: 70%;
+	max-width: auto;
+}
 
 
 

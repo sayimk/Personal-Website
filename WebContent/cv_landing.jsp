@@ -43,18 +43,28 @@
   						<!-- Navbar Items  -->
   						
   						<!-- Home Link -->
+
   						<li class="nav-item">
-        					<a class="nav-link" href="/">Home </a>
+        					<a class="nav-link" href="/">
+        					<img alt="homepage by freepik" src="Images/icons/nav_bar/homepage/homepage.png" height="20" width="20">
+        					Home 
+        					</a>      
       					</li>
       					
       					<!-- Blank Link -->
   						<li class="nav-item">
-        					<a class="nav-link" href="past_projects">Past Projects</a>
+        					<a class="nav-link" href="past_projects">
+        					<img alt="clock by freepik" src="Images/icons/nav_bar/clock/clock.png" height="20" width="20">
+        					Past Projects
+        					</a>
       					</li>
       					
       					<!-- Blank Link -->
   						<li class="nav-item">
-        					<a class="nav-link" href="current_projects">Current Projects </a>
+        					<a class="nav-link" href="current_projects">        					
+        					<img alt="folder by freepik" src="Images/icons/nav_bar/folder/folder.png" height="20" width="20">
+        					Current Projects
+        					</a>
       					</li>
       					
       					<!-- Blank Link 
@@ -62,9 +72,12 @@
         					<a class="nav-link disabled" href="#">Blank 3</a>
       					</li>-->
       					
-       					<!-- CV Landing Page -->
+      					<!-- CV Landing Page -->
   						<li class="nav-item active">
-        					<a class="nav-link " href="cv_details">CV Info <span class="sr-only">(current)</span></a>
+        					<a class="nav-link " href="cv_details">
+        					<img alt="user by freepik" src="Images/icons/nav_bar/user/user.png" height="20" width="20">
+        					CV Info <span class="sr-only">(current)</span>
+        					</a>
       					</li>
       					<!-- Add other NavBar heading links here -->
       					
@@ -90,6 +103,7 @@
 			<canvas id="CardsPastCan"></canvas>
 			<h1 id="cardPastTitle"><a href="past_work">Past Work Experience</a></h1>
 			<p id="cardPastSubText">A quick breakdown of all my past jobs and experiences</p>
+			<img id="cardPastIcon" alt="employee by Freepik" src="Images/icons/CV_Landing/employee/employee.png">
 		</div>
 		
 		<br/><br/>
@@ -98,6 +112,7 @@
 			<canvas id="CardsSkillCan"></canvas>
 			<h1 id="cardSkillTitle"><a href="skills">Skills</a></h1>
 			<p id="cardSkillSubText">Summary and other information on all my software Skills</p>
+			<img id="cardSkillIcon" alt="skills by Srip" src="Images/icons/CV_Landing/skills/skills.png">
 			
 		</div>
 		
@@ -106,7 +121,9 @@
 		<div class="container" id="CardsBG">
 			<canvas id="CardsHobbiesCan"></canvas>
 			<h1 id="cardHobbiesTitle"><a href="hobbies">Hobbies</a></h1>
-			<p id="cardHobbiesSubText">Brief information on my hobbies, insight into what kind of person I am</p>
+			<p id="cardHobbiesSubText">Brief information on my hobbies,insight into what kind of person I am</p>
+			<img id="cardHobbiesIcon" alt="ps4 by Freepik" src="Images/icons/CV_Landing/ps4/ps4.png">
+			
 			
 		</div>
 		

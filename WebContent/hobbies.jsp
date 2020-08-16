@@ -42,18 +42,28 @@
   						<!-- Navbar Items  -->
   						
   						<!-- Home Link -->
+
   						<li class="nav-item">
-        					<a class="nav-link" href="/">Home </a>
+        					<a class="nav-link" href="/">
+        					<img alt="homepage by freepik" src="Images/icons/nav_bar/homepage/homepage.png" height="20" width="20">
+        					Home
+        					</a>      
       					</li>
       					
       					<!-- Blank Link -->
   						<li class="nav-item">
-        					<a class="nav-link" href="past_projects">Past Projects</a>
+        					<a class="nav-link" href="past_projects">
+        					<img alt="clock by freepik" src="Images/icons/nav_bar/clock/clock.png" height="20" width="20">
+        					Past Projects
+        					</a>
       					</li>
       					
       					<!-- Blank Link -->
   						<li class="nav-item">
-        					<a class="nav-link" href="current_projects">Current Projects </a>
+        					<a class="nav-link" href="current_projects">        					
+        					<img alt="folder by freepik" src="Images/icons/nav_bar/folder/folder.png" height="20" width="20">
+        					Current Projects
+        					</a>
       					</li>
       					
       					<!-- Blank Link 
@@ -62,8 +72,11 @@
       					</li>-->
       					
       					<!-- CV Landing Page -->
-  						<li class="nav-item">
-        					<a class="nav-link " href="cv_details">CV Info</a>
+  						<li class="nav-item active">
+        					<a class="nav-link " href="cv_details">
+        					<img alt="user by freepik" src="Images/icons/nav_bar/user/user.png" height="20" width="20">
+        					CV Info <span class="sr-only">(current)</span>
+        					</a>
       					</li>
       					<!-- Add other NavBar heading links here -->
       					
