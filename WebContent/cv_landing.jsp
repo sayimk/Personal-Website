@@ -29,7 +29,7 @@
 	<body>
 		
 		<!-- Navigation Bar -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+		<nav class="navbar navbar-expand-lg navbar-dark nav-custom ">
 		
 			    <span class="navbar-brand mb-0 h1">Sayim's Web</span>
 			
@@ -121,7 +121,7 @@
 		<div class="container" id="CardsBG">
 			<canvas id="CardsHobbiesCan"></canvas>
 			<h1 id="cardHobbiesTitle"><a href="hobbies">Hobbies</a></h1>
-			<p id="cardHobbiesSubText">Brief information on my hobbies,insight into what kind of person I am</p>
+			<p id="cardHobbiesSubText">Brief information on my hobbies, insight into what kind of person I am</p>
 			<img id="cardHobbiesIcon" alt="ps4 by Freepik" src="Images/icons/CV_Landing/ps4/ps4.png">
 			
 			

@@ -28,7 +28,7 @@
 	<body>
 		
 <!-- Navigation Bar -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+		<nav class="navbar navbar-expand-lg navbar-dark nav-custom ">
 		
 			    <span class="navbar-brand mb-0 h1">Sayim's Web</span>
 			
@@ -95,19 +95,20 @@
   				</div>
 		</nav>
 		
+		<br/>
 		<canvas id="background"></canvas>
 		
 		<div class="container" id="one">
 			<div class="row">
 				<div class= "col">
-					<h3>My Hobbies</h3>				
+					<h3 class="bright_white_font">My Hobbies</h3>				
 				</div>		
 			</div>
 			
 			<!-- Hobby 1 -->
 			<div class="row">
 				<div class="col-md-8">
-					<h5 id="p_subtitle_indent">Programming</h5>
+					<h5 id="p_subtitle_indent" class="bright_white_font">Programming</h5>
 					<p id="para_Indent">This one is kind of a given, I enjoy programming and doing small side project (like this website!) alongside my other hobbies.<br/> 
 					It is kind of difficult at times to figure out what projects to do exactly because I am not the most creative person on the planet, but I do programs or
 					apps that I think I would find useful or because I wanted to try making my own version. <br/>I enjoy doing these side project whether it is a desktop program or
@@ -128,7 +129,7 @@
 				</div>
 			
 				<div class="col-md-8">
-					<h5 id="p_subtitle_indent_right" align="left">Technology</h5>
+					<h5 id="p_subtitle_indent_right" align="left" class="bright_white_font">Technology</h5>
 					<p id="para_Indent">This hobby is a more broad term, I love reading and researching about technology or new developments in the 
 					tech industry, such as phones, computers, etc. It is really interesting to see how technology evolves so quickly over the years.
 					I commonly use websites such as T3, Techradar and engadget for getting the latest technology news.</p>
@@ -140,7 +141,7 @@
 			
 			<div class="row">
 				<div class="col-md-8">
-					<h5 id="p_subtitle_indent">Gaming</h5>
+					<h5 id="p_subtitle_indent" class="bright_white_font">Gaming</h5>
 					<p id="para_Indent">I love gaming, growing up I played quite a lot. I primarily play Role playing games, either western or japanese due to the game worlds usually
 					being so full of interesting and cool lore and stories. <br/>For me games are a really interactive way of experiencing amazing and breathtaking stories.<br/> This aspect has also made me interested in game
 					development, other than the amazing experience playing them, I am often curious about what goes into making games like these, its this reason why I tried game development for my BSc and MComp personal projects.
@@ -153,20 +154,22 @@
 			
 			<br/>
 			<hr id="past_proj_split">
+			
 			<div class="row">
 				<div class="col-sm">
 					<!-- image goes here -->
 				</div>
 				<div class="col-md-8">
-					<h5 id="p_subtitle_indent">Japanese and anime</h5>
+					<h5 id="p_subtitle_indent" class="bright_white_font">Japanese and anime</h5>
 					<p id="para_Indent">I started to watch japanese anime during my secondary school days because the storys and characters usually are so interesting and immersive, it gives me the
 					same feeling of fascination that I get when playing video games, this then spiraled into Manga (japanese comics) and japanese novel series. <br/>I became really interested in the japanese culture, its a dream to visit
 					japan and visit different parts of the country that has amazed me. For that purpose, I am self-teaching myself the 2 alphabets and the language, as of 2020, I can hold a very simple conversation, I hope my skills grow more into the future.</p>
 				</div>
 			</div>
-			
 		</div>
 		
+	<br/>
+	
 	<!-- Footer -->
     <footer class="footer">
       <div class="container">

@@ -14,15 +14,15 @@ export class DrawableCircle{
 		this.radius = Math.floor((Math.random()+1)*15);
 
 		if (Math.floor(Math.random()-0.50)==-1){
-			this.xIncrement = -1;
+			this.xIncrement = -0.5;
 		} else{
-			this.xIncrement = 1;
+			this.xIncrement = 0.5;
 		}
 
 		if (Math.floor(Math.random()-0.50)==-1){
-			this.yIncrement = -1;
+			this.yIncrement = -0.5;
 		} else{
-			this.yIncrement = 1;
+			this.yIncrement = 0.5;
 		}
 		
 		this.x = ((Math.random() * (c.width-(this.radius*2)))+this.radius);

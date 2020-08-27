@@ -29,7 +29,7 @@
 	
 	<body>
 		<!-- Navigation Bar -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+		<nav class="navbar navbar-expand-lg navbar-dark nav-custom ">
 		
 			    <span class="navbar-brand mb-0 h1">Sayim's Web</span>
 			
@@ -97,12 +97,13 @@
   				</div>
 		</nav>
 		
+		<br/>
 		<canvas id="background"></canvas>
 		
 		<div class="container" id="one">
 			<div class="row">
 				<div class="col">
-					<h3>Past Projects</h3>
+					<h3 class="bright_white_font">Past Projects</h3>
 				</div>
 			</div>
 			
@@ -119,7 +120,7 @@
 			
 			<div class="row">
 				<div class="col" id="proj_1_title">
-					<h4>My First Wish</h4>
+					<h4 class="bright_white_font">My First Wish</h4>
 				</div>
 			</div>
 			
@@ -256,7 +257,7 @@
 		<!-- Second project -->
 			<div class="row">
 				<div class="col" id="proj_2_title">
-					<h4>My Second Wish</h4>
+					<h4 class="bright_white_font">My Second Wish</h4>
 				</div>
 			</div>
 			

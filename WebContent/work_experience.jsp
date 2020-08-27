@@ -27,7 +27,7 @@
 	<body>
 
 <!-- Navigation Bar -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+		<nav class="navbar navbar-expand-lg navbar-dark nav-custom ">
 		
 			    <span class="navbar-brand mb-0 h1">Sayim's Web</span>
 			
@@ -92,12 +92,13 @@
   				</div>
 		</nav>
 		
+		<br/>
 		<canvas id="background"></canvas>
 		
 		<div class="container" id="one">
 			<div class="row">
 				<div class= "col">
-					<h3>Past work history/experience</h3>		
+					<h3 class="bright_white_font">Past work history/experience</h3>		
 
 				</div>		
 			</div>
@@ -114,10 +115,10 @@
 			
 			<div class="row">
 				<div class="col-md-6" id="history_1_cex_details">
-					<h4>Complete Entertainment eXchange (CEX)</h4>
+					<h4 class="bright_white_font">Complete Entertainment eXchange (CEX)</h4>
 					<br>
-					<h5><strong>Sales Assistant/Product Tester</strong>: Aug 2018 - current</h5>
-					<h5 id="p_subtitle_indent"><strong>Duties</strong></h5>
+					<h5><strong class="bright_white_font">Sales Assistant/Product Tester</strong>: Aug 2018 - current</h5>
+					<h5 class="bright_white_font" id="p_subtitle_indent"><strong>Duties</strong></h5>
 					<p id="para_Indent">-Electronics functionality testing (before exchange)
 					<br>-Fulfilling store E-commerce orders (picking, processing, packing) 
 					<br>-Providing technical support/troubleshooting for staff members &nbsp; and customers

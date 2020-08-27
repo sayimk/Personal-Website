@@ -28,7 +28,7 @@
 	
 	<body>
 		<!-- Navigation Bar -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+		<nav class="navbar navbar-expand-lg navbar-dark nav-custom ">
 		
 			    <span class="navbar-brand mb-0 h1">Sayim's Web</span>
 			
@@ -94,12 +94,13 @@
   				</div>
 		</nav>
 		
+		<br/>
 		<canvas id="background"></canvas>
 		
 		<div class="container" id="one">
 			<div class="row">
 				<div class="col">
-					<h3>Current Projects</h3>
+					<h3 class= "bright_white_font">Current Projects</h3>
 				</div>
 			</div>
 			
@@ -115,13 +116,13 @@
 			
 			<div class="row">
 				<div class="col" id="proj_1_title">
-					<h4>Personal Web Project</h4>
+					<h4 class= "bright_white_font">Personal Web Project</h4>
 				</div>
 			</div>
 			
 			<div class="row" id="current_details">
 				<div class="col-md-7">
-					<p><br/><strong>What is it?</strong><br/>
+					<p><br/><strong class= "bright_white_font">What is it?</strong><br/>
 						This project is my own personal website, it will be all about me!. It will act like my own online portfolio of projects i've done in the past and present, as well as an online
 						broken down version of my CV. This is an a permanent ongoing project as I plan to slowly add more features as I build my skills and knowledge, such as a small blog, my own 
 						web login for updating the site from the front end (so I don't have to hard-code things.), maybe a database for more dynamic data fetching. <br/>
@@ -130,16 +131,18 @@
 				</div>
 			
 			<div class="col-sm-5" id="proj_1_info_panel">
-				<p><strong>Project Name:</strong> Personal Web Project <br/>
-				 	<strong>Type:</strong> Website/Web Development <br/>
-					<strong>Languages:</strong> Java, HTML, CSS, Javascript <br/>
-					<strong>Technologies:</strong> Bootstrap, Amazon Web Services (AWS) <br/>
-					<strong>Status:</strong> Ongoing (permanent) <br/>
+				<p><strong class= "bright_white_font">Project Name:</strong> Personal Web Project <br/>
+				 	<strong class= "bright_white_font">Type:</strong> Website/Web Development <br/>
+					<strong class= "bright_white_font">Languages:</strong> Java, HTML, CSS, Javascript <br/>
+					<strong class= "bright_white_font">Technologies:</strong> Bootstrap, Amazon Web Services (AWS) <br/>
+					<strong class= "bright_white_font">Status:</strong> Ongoing (permanent) <br/>
 				</p>
 			</div>
 		</div>
 	</div>
-		
+	
+	<br/>	
+	
 	<!-- Footer -->
     <footer class="footer">
       <div class="container">

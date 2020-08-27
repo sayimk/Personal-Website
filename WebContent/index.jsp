@@ -26,9 +26,9 @@
 	
 	<body>
 	<!-- Navigation Bar -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+		<nav class="navbar navbar-expand-lg navbar-dark nav-custom ">
 		
-			    <span class="navbar-brand mb-0 h1">Sayim's Web</span>
+			    <span class="navbar-brand mb-0 h1">Sayim's Home</span>
 			
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     				<span class="navbar-toggler-icon"></span>
@@ -94,29 +94,72 @@
   			  				
 		</nav>
 		
-		
-		
 		<!-- Page -->
 		<canvas id="background"></canvas>
+		
+		<div class="container" id="indexSlides">
+			<div class="row">			
+				<div class="col-lg" id="home_caro">
+					<div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+  						<ol class="carousel-indicators">
+    						<li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+    						<li data-target="#carouselIndicators" data-slide-to="1"></li>
+    						<li data-target="#carouselIndicators" data-slide-to="2"></li>
+    						<li data-target="#carouselIndicators" data-slide-to="3"></li>
+  						</ol>
+  						
+  					<div class="carousel-inner" id="home_img" align="center">
+    					<div class="carousel-item active">
+      						<img class="d-block w-100" src="Images/home_example/h1_1.png" alt="First slide">
+    					</div>
+    				
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/home_example/h1_2.png" alt="Second slide">
+    					</div>
+    				
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/home_example/h1_3.png" alt="Third slide">
+    					</div>
+    					
+    					<div class="carousel-item">
+      						<img class="d-block w-100" src="Images/home_example/h1_4.png" alt="4th slide">
+    					</div>
+    					
+  					</div>
+  					
+  					<a class="carousel-control-prev" id="home_prev_indicator" href="#carouselIndicators" role="button" data-slide="prev">
+    					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    					<span class="sr-only">Previous</span>
+  					</a>
+  				
+  					<a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+    					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    					<span class="sr-only">Next</span>
+  					</a>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 		<!-- Opening Paragraph -->
 		<div class="container" id="one">
 				
 			<div class="row">
 				<div class= "col">
-					<h3>Welcome to Sayim's Webpage</h3>				
+					<h3 class="bright_white_font">Welcome to Sayim's Webpage</h3>				
 				</div>		
 			</div>
+		
+			<br/>
 			
 			<div class="row">
 				<div class="col-md" align="center">
-					<h5>Hello and welcome to my own little bit of the internet, I'm a MComp Computer Science Graduate (2019) from Leicester who loves technology, video games
-					 and learning new cool things that come with the territory such as building a cool yet simple website!</h5>
+					<h6>Hello and welcome to my own little bit of the internet, I'm a MComp Computer Science Graduate (2019) from Leicester who loves technology, video games
+					 and learning new cool things that come with the territory such as building a cool yet simple website!</h6>
 					
 				</div>
 			</div>
-			
-			<br/>
+		
 			<hr id="past_proj_split">
 			
 			<div class="row" id="personalinfo">
@@ -126,43 +169,22 @@
 				</div>
 			
 				<div class= "col-md" id="contactInfo">
-					<h6>Contact Info</h6>
+					<h6 class="bright_white_font">Contact Info</h6>
 					<p id="mail">e-Mail: sayimkhan007@googlemail.com</p>
 					<p>Mobile: 07599358528 <br> &emsp; &emsp;&emsp; 07834834528</p>
 					<p>Github:<a href="https://github.com/sayimk"> https://github.com/sayimk</a></p>
 					<p>LinkedIn: <a href="https://www.linkedin.com/in/sayim-khan-8750b5131/">Sayim Khan</a></p>
 				</div>
+				
 			</div>
-			
 			<br/>
-			<hr id="past_proj_split">
-			
-			<div class="row">
-			<!-- Language skill ranking -->
-				<div class="col-md" id="preferences" >
-					<h5>Language Preferences:</h5>
-					<p>These are the languages that I prefer to use or have knowledge to efficiently program in</p>
-					<p><strong>1: Java - 4/5 years - </strong>This is the language that I am most comfortable with as this is the language I have the most skill with, it is also the first language 
-					that I started to learn at the beginning of my 4 year Computer Science course.</p>
-					<p><strong>2: C# - 2/3 years - </strong>This is my second strongest language as I used my Java knowledge and self-taught it during my BSc and MComp personal projects, there are
-					still a few concepts of the language that I need to touch on still such as Lambda expressions, but I am pretty proficient in the language. </p>
-					<p><strong>3: C++ - 1/2 years - </strong>I can for the most part program in this language with a little time, due to not using it as often as #1 and #2, but not a fan because I just prefer garbage collected languages as I can 
-					leave the collector to handle the memory allocations and etc, though a plus for the language is that it can use multiple inheritance and that is pretty useful.</p>
-					<p><strong>4: Web Development - 1/2 years -</strong> I have a moderate amount of knowledge in this area, during my university days I have used java's web dev side of things, spring MVC, bootstrap
-					as well as some NoSql for the database side of things. I've also used Javascript, HTML and some JQuery as well. I have enough knowledge to built this very basic website using Java, HTML, CSS and some Javascript. As I continue to slowly
-					improve the website with other technologies that I might have picked up along the way.
-					<br/>
-			
-				</div>
-			</div>
-	
 		</div>
 		
-		
-		
-				<!-- Footer NEEDS MORE WORK-->
+	<br/>
+	<!-- Footer NEEDS MORE WORK-->
     <footer class="footer">
       <div class="container">
+      	
         <h5 class="text-muted" align="right">Powered By Amazon Web Services</h5>
         <a href="GetSiteMap">Sitemap</a>
         
