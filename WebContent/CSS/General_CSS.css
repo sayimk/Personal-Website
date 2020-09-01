@@ -30,9 +30,9 @@ a{
 	padding-top: -20px;
 }
 
-.nav-custom{
+/*.nav-custom{
 	background-color:#262626;
-}
+}*/
 
 .bright_white_font{
 	color:#F2F2F2;
@@ -42,7 +42,7 @@ canvas {
     position:absolute;
 	top:0;
 	left:0;
-    z-index:-1;
+    z-index:-2;
 }
 				
 #personalinfo{
@@ -255,6 +255,13 @@ canvas {
 	width:100%
 
 }
+
+#iconAnimate{
+			background-color:#262626;
+			z-index:-1;
+			}
+
+
 
 
 

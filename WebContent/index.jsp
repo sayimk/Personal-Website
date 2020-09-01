@@ -11,9 +11,17 @@
 		
 		<!-- javascript -->
 		<script type="module" src="Scripts/JS/animated_Background.js"></script>
+		<script type="module" src="Scripts/JS/navElementAnimate.js"></script>
+		
 		
 		<!-- General CSS Link -->
 		<link rel="stylesheet" href= "CSS/General_CSS.css">
+		
+		<style type="text/css">
+			
+		
+		
+		</style>
 		
 		<!-- Meta tags -->
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -24,7 +32,7 @@
 		<title>Sayim's Home</title>
 	</head>
 	
-	<body>
+	<body>	
 	<!-- Navigation Bar -->
 		<nav class="navbar navbar-expand-lg navbar-dark nav-custom ">
 		
@@ -36,28 +44,30 @@
   				
   				
   				<div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+    				<!-- Navbar Animation -->
+    				<canvas id="iconAnimate"></canvas>
+    				
     				<ul class="navbar-nav mr-auto">
-  						<!-- Navbar Items  -->
+  					<!-- Navbar Items  -->
   						
   						<!-- Home Link -->
-
-  						<li class="nav-item active">
+  						<li class="nav-item active" id="nav_home">
         					<a class="nav-link" href="/">
         					<img alt="homepage by freepik" src="Images/icons/nav_bar/homepage/homepage.png" height="20" width="20">
-        					Home <span class="sr-only">(current)</span>
-        					</a>      
+        					Home <span class="sr-only">(current)</span>      					
+        					</a>  
       					</li>
       					
       					<!-- Blank Link -->
-  						<li class="nav-item">
-        					<a class="nav-link" href="past_projects">
+  						<li class="nav-item" id="nav_past_proj">
+        					<a class="nav-link" href="past_projects">        					
         					<img alt="clock by freepik" src="Images/icons/nav_bar/clock/clock.png" height="20" width="20">
         					Past Projects
         					</a>
       					</li>
       					
       					<!-- Blank Link -->
-  						<li class="nav-item">
+  						<li class="nav-item" id="nav_current_proj">
         					<a class="nav-link" href="current_projects">        					
         					<img alt="folder by freepik" src="Images/icons/nav_bar/folder/folder.png" height="20" width="20">
         					Current Projects
@@ -70,7 +80,7 @@
       					</li>-->
       					
       					<!-- CV Landing Page -->
-  						<li class="nav-item">
+  						<li class="nav-item" id="nav_cv_info">
         					<a class="nav-link " href="cv_details">
         					<img alt="user by freepik" src="Images/icons/nav_bar/user/user.png" height="20" width="20">
         					
@@ -162,10 +172,12 @@
 		
 			<hr id="past_proj_split">
 			
+						
 			<div class="row" id="personalinfo">
 			
 				<div class= "col-sm" align="center">
 					<img src="Images/grad1.jpeg" class="img-fluid" id="gradImage" alt="Responsive image">
+					
 				</div>
 			
 				<div class= "col-md" id="contactInfo">
@@ -177,6 +189,8 @@
 				</div>
 				
 			</div>
+			
+			
 			<br/>
 		</div>
 		
