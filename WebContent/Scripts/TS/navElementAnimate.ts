@@ -31,8 +31,6 @@ onresize = ()=>{
 
 let initialize = (elementProfile:navElementProfile)=>{
 
-    console.log(elementProfile);
-
     sx = elementProfile.getStartX();
     sy = elementProfile.getStartY();
 
@@ -60,7 +58,6 @@ let drawStart = () =>{
         x = sx;
         y = sy; 
     }
-
     drawHighlightTop();
 }
 
@@ -68,9 +65,7 @@ let drawHighlightTop = ()=>{
    
     ct.beginPath();
     ct.moveTo(sx,y);
-
     ct.lineTo(x, y);
-    
     ct.stroke();
 
     if(x>=endX){
@@ -83,7 +78,6 @@ let drawHighlightTop = ()=>{
         }
         currentFrame = requestAnimationFrame(drawHighlightTop);
     }
-
 }
 
 let drawRightSide = () =>{
@@ -103,7 +97,6 @@ let drawRightSide = () =>{
         }
         currentFrame = requestAnimationFrame(drawRightSide);
     }
-
 }
 
 let drawHighlightBottom = () =>{

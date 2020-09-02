@@ -14,6 +14,8 @@
 		
 		<!-- javascript -->
 		<script type="module" src="Scripts/JS/animated_Background.js"></script>
+		<script type="module" src="Scripts/JS/navElementAnimate.js"></script>
+		
 		
 		<!-- General CSS Link -->
 		<link rel="stylesheet" href= "CSS/General_CSS.css">
@@ -30,7 +32,7 @@
 <!-- Navigation Bar -->
 		<nav class="navbar navbar-expand-lg navbar-dark nav-custom ">
 		
-			    <span class="navbar-brand mb-0 h1">Sayim's Web</span>
+			    <span class="navbar-brand mb-0 h1">Sayim's Home</span>
 			
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     				<span class="navbar-toggler-icon"></span>
@@ -38,12 +40,16 @@
   				
   				
   				<div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+    				
+    				<!-- Navbar Animation -->
+    				<canvas id="iconAnimate"></canvas>
+    				
     				<ul class="navbar-nav mr-auto">
   						<!-- Navbar Items  -->
   						
   						<!-- Home Link -->
 
-  						<li class="nav-item">
+  						<li class="nav-item" id="nav_home">
         					<a class="nav-link" href="/">
         					<img alt="homepage by freepik" src="Images/icons/nav_bar/homepage/homepage.png" height="20" width="20">
         					Home
@@ -51,7 +57,7 @@
       					</li>
       					
       					<!-- Blank Link -->
-  						<li class="nav-item">
+  						<li class="nav-item" id="nav_past_proj">
         					<a class="nav-link" href="past_projects">
         					<img alt="clock by freepik" src="Images/icons/nav_bar/clock/clock.png" height="20" width="20">
         					Past Projects
@@ -59,7 +65,7 @@
       					</li>
       					
       					<!-- Blank Link -->
-  						<li class="nav-item">
+  						<li class="nav-item" id="nav_current_proj">
         					<a class="nav-link" href="current_projects">        					
         					<img alt="folder by freepik" src="Images/icons/nav_bar/folder/folder.png" height="20" width="20">
         					Current Projects
@@ -72,7 +78,7 @@
       					</li>-->
       					
       					<!-- CV Landing Page -->
-  						<li class="nav-item active">
+  						<li class="nav-item active" id="nav_cv_info">
         					<a class="nav-link " href="cv_details">
         					<img alt="user by freepik" src="Images/icons/nav_bar/user/user.png" height="20" width="20">
         					CV Info <span class="sr-only">(current)</span>
