@@ -18,12 +18,11 @@ let endX;
 let endY;
 let finishedInitRun = false;
 let currentFrame;
-let speed = 12;
+let speed = 25;
 onresize = () => {
     canvas.width = window.innerWidth;
 };
 let initialize = (elementProfile) => {
-    console.log(elementProfile);
     sx = elementProfile.getStartX();
     sy = elementProfile.getStartY();
     endX = elementProfile.getEndX();

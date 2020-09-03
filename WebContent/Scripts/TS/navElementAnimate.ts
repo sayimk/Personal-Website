@@ -13,17 +13,17 @@ let nav_past_proj = document.getElementById("nav_past_proj")!;
 let nav_current_proj = document.getElementById("nav_current_proj")!;
 let nav_cv_info = document.getElementById("nav_cv_info")!;
 
-let x:number 
-let y:number
-let sy:number
-let sx:number
-let endX:number
-let endY:number
+let x:number;
+let y:number;
+let sy:number;
+let sx:number;
+let endX:number;
+let endY:number;
 
 let finishedInitRun:boolean = false;
 let currentFrame:number;
 
-let speed:number =12
+let speed:number =25;
 
 onresize = ()=>{
     canvas.width=window.innerWidth;
