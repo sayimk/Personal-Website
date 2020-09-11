@@ -15,6 +15,8 @@
 		<!-- javascript -->
 		<script type="module" src="Scripts/JS/animated_Background.js"></script>
 		<script type="module" src="Scripts/JS/navElementAnimate.js"></script>
+		<script type="module" src="Scripts/JS/Behaviour_Scripts/adjust_for_mobile.js"></script>
+		
 		
 		
 		<!-- General CSS Link -->
@@ -30,7 +32,7 @@
 	<body>
 		
 <!-- Navigation Bar -->
-		<nav class="navbar navbar-expand-lg navbar-dark nav-custom ">
+		<nav class="navbar navbar-expand-lg navbar-dark nav-custom" id="navBar">
 		
 			    <span class="navbar-brand mb-0 h1">Sayim's Home</span>
 			
