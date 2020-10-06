@@ -147,9 +147,36 @@
 				</p>
 			</div>
 		</div>
+		
+		<br/>
+		<hr id="past_proj_split">
+		
+		<div class="row">
+			<div class="col" id="proj_2_title">
+				<h4 class= "bright_white_font">Multi Manager</h4>
+			</div>
+		</div>
+		
+		<div class="row" id="current_details">
+			<div class="col-md-7">
+				<p><br/><strong class= "bright_white_font">What is it?</strong><br/>
+					Multi Manager is my own personal take on multi-monitor management software. This project stemmed personal requirement, as I can't find any decent free solutions, but
+					also the desire to learn now to create C++ windows system applications.
+					</p>
+			</div>
+		
+			<div class="col-sm-5" id="proj_1_info_panel">
+				<p><strong class= "bright_white_font">Project Name:</strong> Multi Manager <br/>
+				 	<strong class= "bright_white_font">Type:</strong> Windows Application <br/>
+					<strong class= "bright_white_font">Languages:</strong> C++ <br/>
+					<strong class= "bright_white_font">Technologies:</strong> Qt Framework <br/>
+					<strong class= "bright_white_font">Status:</strong> Ongoing <br/>
+				</p>
+			</div>
+		</div>
 	</div>
 	
-	<br/>	
+	<br/>
 	
 	<!-- Footer -->
     <footer class="footer">
