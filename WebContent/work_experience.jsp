@@ -125,12 +125,12 @@
 				<div class="col-md-6" id="history_1_cex_details">
 					<h4 class="bright_white_font">Complete Entertainment eXchange (CEX)</h4>
 					<br>
-					<h5><strong class="bright_white_font">Sales Assistant/Product Tester</strong>: Aug 2018 - current</h5>
+					<h5><strong class="bright_white_font">Sales Assistant/Product Tester</strong>: Aug 2018 - May 2021</h5>
 					<h5 class="bright_white_font" id="p_subtitle_indent"><strong>Duties</strong></h5>
-					<p id="para_Indent">-Electronics functionality testing (before exchange)
-					<br>-Fulfilling store E-commerce orders (picking, processing, packing) 
-					<br>-Providing technical support/troubleshooting for staff members &nbsp; and customers
-					<br>-Electronic device demonstrations for customers</p>
+					<p id="para_Indent">- Electronics functionality testing (before exchange)
+					<br>- Fulfilling store E-commerce orders (picking, processing, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;packing) 
+					<br>- Providing technical support/troubleshooting for staff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;members and customers
+					<br>- Electronic device demonstrations for customers</p>
 				</div>
 				
 				<div class="col-sm" align="right" id="cex_logo_col">
@@ -140,8 +140,33 @@
 		
 			<br/>
 			<hr id="past_proj_split">
-		
+			
+			<div class="row">
+				<div class="col-md-6" id="history_1_cex_details">
+					<h4 class="bright_white_font">Content Guru</h4>
+					<br>
+					<h5><strong class="bright_white_font">Support Engineer</strong>: April 2021 - Current</h5>
+					<h5 class="bright_white_font" id="p_subtitle_indent"><strong>Duties</strong></h5>
+					<p id="para_Indent">- Receive customer service calls.
+					<br>- Responding to customer service emails.
+					<br>- Log support tickets for reported issues with service.
+					<br>- Take ownership of tickets and investigate/resolve root cause.
+					<br>- Prioritising and categorising faults promptly.
+					<br>- Communicate and follow up on customer issues with other &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divisions (Sales, Application Development, Provisioning)
+					<br>- Resolve customer queries or information requests.
+					<br>- Investigating server logs, service web portals, service &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;documentation, etc to identify root cause and resolve.
+					<br>- Use SQL to investigate DB data related issues/queries.
+					<br>- Ticket closure report and emails.</p>
+				</div>
+				
+				<div class="col-sm" align="right" id="CG_logo_col" >
+					<img src="Images/logos/Content_Guru_Logo.png" class="img-fluid" id="CGLogo" alt="Responsive image">
+				</div>
+			</div>
+			<br/>
 		</div>
+		
+		<br/>
 		
 	<!-- Footer -->
     <footer class="footer">

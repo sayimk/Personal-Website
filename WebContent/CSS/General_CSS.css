@@ -133,7 +133,12 @@ canvas {
 
 #cex_logo_col{
 		padding-right:100px;
-		padding-top: 70px;
+		padding-top: 90px;
+}
+
+#CG_logo_col{
+		padding-right:100px;
+		padding-top: 200px;
 }
 
 #history_1_cex_details{
